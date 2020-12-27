@@ -17,7 +17,7 @@ if(isset($_POST['btn_sub'])){
 	$note=$_POST['notetxt'];	
 	
 
-$sql_ins=mysql_query("INSERT INTO stu_score_tbl 
+$sql_ins=mysqli_query($link,"INSERT INTO stu_score_tbl 
 						VALUES(
 							NULL,
 							'$stu_name',

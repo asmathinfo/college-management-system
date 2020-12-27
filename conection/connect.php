@@ -1,4 +1,3 @@
 <?php
-mysql_connect("localhost","root", "") or die("No Connection");
-mysql_select_db("assignment") or die("No Database connected!");
+$link = mysqli_connect("127.0.0.1", "root", "", "assignment");
 ?>
